@@ -1,0 +1,10 @@
+Laïyana
+Copyright (c) 2026 Cédric Vilmen. All rights reserved.
+
+Laïyana is free to download and use for personal purposes.
+
+You may not copy, modify, redistribute, sell, decompile or reverse engineer
+the software, in whole or in part, without written permission.
+
+The software is provided "as is", without warranty of any kind. The author
+shall not be liable for any damage arising from its use.

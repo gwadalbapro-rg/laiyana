@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+    <g fill="none" stroke="#EDEAE4" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M9.75 28 A24 24 0 0 1 54.25 28"/>
+      <rect x="5" y="28" width="10" height="18" rx="5"/>
+      <rect x="49" y="28" width="10" height="18" rx="5"/>
+      <circle cx="32" cy="37" r="16"/>
+      <path class="meche" d="M32 21 C31.8 18 35 17 36.2 19 C37.2 20.8 35 21.8 34.2 20.2"/>
+      <path d="M24.5 38.5 Q27 41.5 29.5 38.5 M34.5 38.5 Q37 41.5 39.5 38.5"/>
+    </g></svg>

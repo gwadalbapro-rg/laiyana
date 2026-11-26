@@ -1,0 +1,6 @@
+/* Polices du site, hébergées avec lui (8/11/2026) : aucun appel à un service tiers, comme promis dans la page de
+   confidentialité. Toutes sous licence SIL Open Font License 1.1 (textes OFL-*.txt à côté). Sous-ensemble latin. */
+@font-face { font-family: 'Nunito Variable'; font-style: normal; font-display: swap; font-weight: 200 1000; src: url('nunito-latin-wght-normal.woff2') format('woff2-variations'); }
+@font-face { font-family: 'Fraunces Variable'; font-style: normal; font-display: swap; font-weight: 100 900; src: url('fraunces-latin-full-normal.woff2') format('woff2-variations'); }
+@font-face { font-family: 'Urbanist Variable'; font-style: normal; font-display: swap; font-weight: 100 900; src: url('urbanist-latin-wght-normal.woff2') format('woff2-variations'); }
+@font-face { font-family: 'Figtree Variable'; font-style: normal; font-display: swap; font-weight: 300 900; src: url('figtree-latin-wght-normal.woff2') format('woff2-variations'); }

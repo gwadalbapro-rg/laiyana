@@ -1,0 +1,108 @@
+<!doctype html>
+<!-- Page de confidentialité de laiyana.app (8/11/2026), exigée par le Microsoft Store. Vérifiée sur le code : services
+     contactés = ceux de src-tauri/src/en_ligne.rs, rien d'autre ; aucun compte, aucune mesure d'audience. Réécrite le 16/11/2026 après relecture du code : un réglage par famille d'échanges (Chercher en ligne, Paroles en ligne, Radio et podcasts), tous éteints par défaut ; diffusion sur le réseau local. -->
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Confidentialité · Laïyana</title>
+<link rel="stylesheet" href="polices/polices.css">
+<link rel="icon" href="favicon.ico" sizes="any">
+<style>
+  :root { --bg: #121110; --bg-2: #1b1a18; --text: #edeae4; --text-2: #a39f97; --text-3: #6f6b65; --brand: #cbbbff; color-scheme: dark; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.65 'Nunito Variable', 'Nunito', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  .page { max-width: 720px; margin: 0 auto; padding: 32px max(20px, env(safe-area-inset-left, 0px)) 80px max(20px, env(safe-area-inset-right, 0px)); }
+  nav { display: flex; align-items: center; justify-content: space-between; margin-bottom: 56px; }
+  nav a { color: var(--text); text-decoration: none; font: 700 21px 'Figtree Variable', 'Figtree', system-ui, sans-serif; letter-spacing: -0.02em; }
+  nav .langue { font: 700 14px 'Nunito Variable', 'Nunito', system-ui, sans-serif; color: var(--text-3); }
+  nav .langue b { color: var(--text); }
+  h1 { font: 700 clamp(36px, 6vw, 52px)/1.1 'Urbanist Variable', sans-serif; margin: 0 0 8px; }
+  .date { color: var(--text-3); font-size: 15px; font-weight: 700; margin: 0 0 32px; }
+  .bref { padding: 22px 24px; border-radius: 16px; background: var(--bg-2); font-size: 19px; font-weight: 700; margin: 0 0 44px; }
+  h2 { font-size: 21px; font-weight: 800; margin: 40px 0 10px; }
+  h3 { font-size: 17px; font-weight: 800; margin: 26px 0 6px; }
+  h3 span { color: var(--text-2); font-weight: 700; font-size: 14px; margin-left: 8px; }
+  p, li { color: var(--text-2); }
+  b { color: var(--text); }
+  ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  a { color: var(--brand); }
+  footer { margin-top: 64px; color: var(--text-3); font-size: 14px; font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="page">
+  <nav><a href="index.html">laïyana</a><span class="langue"><b>FR</b> · <a href="privacy.html" style="font:inherit;color:inherit">EN</a></span></nav>
+  <h1>Confidentialité</h1>
+  <p class="date">Mise à jour le 24 novembre 2026</p>
+  <p class="bref">Laïyana ne collecte rien sur toi. Pas de compte, pas de publicité, pas de mesure d'audience, rien d'envoyé sans que tu le saches.</p>
+
+  <h2>Ce qui reste sur ton ordinateur</h2>
+  <p>Ta collection, tes écoutes, tes playlists, tes coups de cœur, tes paroles et tes réglages sont rangés dans le dossier de données de Laïyana, sur ton PC. Ils n'en sortent jamais, sauf si tu fais toi-même une sauvegarde (Réglages › Mes données).</p>
+
+  <h2>Ce qui part en ligne</h2>
+  <p>Rien par défaut. Chaque échange avec internet dépend d'un réglage que tu allumes toi-même, et que tu peux couper à tout moment (Réglages › En ligne). Il n'y a aucune mesure d'audience, dans aucun cas.</p>
+
+  <h3>Chercher en ligne <span>éteint par défaut</span></h3>
+  <p>Pour trouver les photos d'artistes, les biographies, les pochettes manquantes et les crédits, Laïyana envoie <b>le nom de l'artiste, le titre de l'album ou du morceau</b>, et pour les crédits <b>la durée du morceau</b>, à ces services libres :</p>
+  <ul>
+    <li><b>MusicBrainz</b> et <b>Cover Art Archive</b> : crédits et pochettes ;</li>
+    <li><b>Wikidata</b>, <b>Wikipédia</b> et <b>Wikimedia Commons</b> : photos et biographies d'artistes.</li>
+  </ul>
+
+  <h3>Paroles en ligne <span>éteint par défaut</span></h3>
+  <p>Pour trouver les paroles d'un morceau qui n'en a pas sur ton disque, Laïyana envoie <b>l'artiste, le titre, l'album et la durée du morceau</b> à <b>LRCLIB</b>, et à défaut à <b>lyrics.ovh</b>.</p>
+
+  <h3>Last.fm <span>éteint par défaut</span></h3>
+  <p>Si tu connectes ton compte Last.fm (Réglages › En ligne), Laïyana lui envoie, pour chaque morceau écouté au-delà de sa moitié, <b>l'artiste, le titre, l'album, l'artiste de l'album, la durée et l'heure d'écoute</b>, ainsi que le morceau en cours. À la connexion, tes écoutes des 14 derniers jours partent aussi. Jamais de nom de fichier. La clé de session est gardée dans le coffre de Windows ; « Déconnecter » l'efface. Ce que Last.fm fait de ces écoutes relève de sa propre politique de confidentialité.</p>
+
+  <h3>Radio et podcasts <span>éteint par défaut, en essai</span></h3>
+  <p>Ces deux onglets sont à l'essai et arriveront en mise à jour. Si tu les allumes :</p>
+  <ul>
+    <li>l'annuaire des stations vient de <b>Radio Browser</b>, et ta recherche de stations lui est envoyée ;</li>
+    <li>ta recherche de podcasts est envoyée à l'annuaire d'<b>Apple (iTunes)</b> ;</li>
+    <li>le son, la liste des épisodes et les images viennent directement des <b>serveurs de chaque station et de chaque podcast</b> ;</li>
+    <li>pour les stations de Radio France, le titre en cours est lu sur <b>api.radiofrance.fr</b>.</li>
+  </ul>
+
+  <h3>Diffusion sur le réseau local</h3>
+  <p>Quand tu envoies la musique vers un appareil de la maison (lecteur DLNA, Chromecast), Laïyana lui parle directement : le morceau, son titre, l'artiste et l'album vont à cet appareil. <b>Rien ne sort de ton réseau local.</b></p>
+
+  <p>Dans tous les cas, aucun identifiant, aucun nom de fichier ni chemin de ton disque n'est envoyé à un service en ligne. Comme pour tout site web, les services contactés voient ton adresse IP ; leurs propres règles de confidentialité s'appliquent.</p>
+
+  <!-- BROUILLON (21/11/2026), à publier avec le comptage anonyme, peu avant la 1.0. Le même jour : remplacer « pas de mesure
+  d'audience » dans le résumé et « Il n'y a aucune mesure d'audience, dans aucun cas » par « Le seul comptage possible est
+  anonyme, et éteint par défaut ». Texte dans l'app (Réglages › En ligne), interrupteur éteint :
+    « Aider Laïyana — Une fois par semaine, envoie la version, le modèle de ton DAC et si la lecture est bit-perfect.
+      Jamais de nom de morceau, d'album ou de fichier. Tu peux le couper quand tu veux. »
+  <h3>Aider Laïyana <span>éteint par défaut</span></h3>
+  <p>Si tu l'allumes (Réglages › En ligne), Laïyana envoie au plus une fois par semaine un court relevé :</p>
+  <ul>
+    <li>la version de Laïyana et celle de Windows ;</li>
+    <li>le modèle de ton DAC, lu sur ses identifiants USB (fabricant et produit) ;</li>
+    <li>les formats écoutés (hi-res, DSD) et si la lecture était bit-perfect ;</li>
+    <li>un numéro tiré au hasard sur ton PC, pour ne pas compter deux fois le même ordinateur. Il n'est relié à rien d'autre.</li>
+  </ul>
+  <p>Jamais de nom de morceau, d'album, d'artiste ni de fichier, jamais ta collection. Ton adresse IP n'est pas gardée.
+  Les relevés servent à savoir quels DAC et quels formats soigner en priorité, et à montrer aux fabricants et aux services
+  de musique, en chiffres globaux uniquement, combien de personnes écoutent avec Laïyana. Les relevés sont gardés au plus
+  deux ans, sur un serveur Cloudflare. Si tu coupes l'interrupteur, plus rien ne part ; ton numéro au hasard est effacé.</p>
+  -->
+  <h2>Les rapports de souci</h2>
+  <p>Ctrl + Maj + R copie un rapport technique (la page ouverte, la lecture, la sortie audio, les erreurs) dans ton presse-papiers. Il ne part nulle part : c'est toi qui choisis de le coller, par exemple dans un signalement sur GitHub.</p>
+
+  <h2>Le Microsoft Store</h2>
+  <p>Si tu installes Laïyana depuis le Microsoft Store, l'installation et les mises à jour passent par Microsoft, selon sa propre déclaration de confidentialité.</p>
+
+  <h2>Laïyana Pro</h2>
+  <p>Le Pro n'est pas encore sorti. Avant sa sortie, cette page dira précisément ce qu'il faut pour l'acheter et l'activer.</p>
+
+  <h2>Tes données, tes droits</h2>
+  <p>Comme rien n'est collecté, il n'y a rien à effacer chez nous. Pour supprimer tes données, désinstalle Laïyana ou supprime son dossier de données. Pour toute question : <b>contact@laiyana.app</b>.</p>
+  <p>Responsable : Cédric Vilmen, éditeur de Laïyana.</p>
+
+  <footer>© 2026 Cédric Vilmen · <a href="index.html">Retour au site</a></footer>
+</div>
+</body>
+</html>
